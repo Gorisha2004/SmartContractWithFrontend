@@ -13,6 +13,11 @@ In this program we have connected our smart contract to the frontend. It allows 
 --> increaseBalance()- used to increase the balance amount by the amount we want 
 --> decreaseBalance()- used to decrease the balance amount by the amount we want
 --> getBalance()- Fetches and displays the current ETH balance of the connected account from the smart contract.
+--> getWallet()- Initializes the MetaMask wallet connection if available
+
+
+--> initUser- Manages the user interface based on the wallet connection status, displaying account information, balances, and transaction buttons.
+These are some of the functionalities which are implemented in this smart contract. The UI designing is done using react.
 
 # Starter Next/Hardhat Project
 
@@ -26,3 +31,7 @@ After cloning the github, you will want to do the following to get the code runn
 
 After this, the project will be running on your localhost. 
 Typically at http://localhost:3000/
+
+For complete code files and further details, refer to the [SCM-Starter](https://github.com/MetacrafterChris/SCM-Starter/tree/main) repository. This repository provides additional context and resources related to setting up similar projects.
+
+
