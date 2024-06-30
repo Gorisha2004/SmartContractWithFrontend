@@ -8,11 +8,11 @@ In this program we have connected our smart contract to the frontend. It allows 
 -> Solidity: Smart contract programming language used for writing Ethereum smart contracts.
 
 **Functions**
-deposit()- used to increase the balance amount by 1
-withdraw()- used to decrease the balance amount by 1
-increaseBalance()- used to increase the balance amount by the amount we want 
-decreaseBalance()- used to decrease the balance amount by the amount we want
-getBalance()- Fetches and displays the current ETH balance of the connected account from the smart contract.
+--> deposit()- used to increase the balance amount by 1
+--> withdraw()- used to decrease the balance amount by 1
+--> increaseBalance()- used to increase the balance amount by the amount we want 
+--> decreaseBalance()- used to decrease the balance amount by the amount we want
+--> getBalance()- Fetches and displays the current ETH balance of the connected account from the smart contract.
 
 # Starter Next/Hardhat Project
 
