@@ -48,7 +48,7 @@ npx hardhat run --network localhost scripts/deploy.js
 <br />
 After this, the project will be running on your localhost. <br />
 Typically at http://localhost:3000/<br />
-<br />
+
 # Help<br />
 If you encounter any issues, ensure that:<br />
 
