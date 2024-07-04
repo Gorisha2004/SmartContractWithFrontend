@@ -1,4 +1,4 @@
-**Description**
+# Description
 In this program we have connected our smart contract to the frontend. It allows users to connect their MetaMask wallet, check their account balance, deposit and withdraw Ether (ETH) from a smart contract deployed on the Ethereum network.
 
 **Technologies used**
