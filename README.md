@@ -47,7 +47,7 @@ After cloning the github, you will want to do the following to get the code runn
    ```
 <br />
 After this, the project will be running on your localhost. <br />
-Typically at http://localhost:3000/<br />
+Typically at [http://localhost:3000/]{http://localhost:3000/} <br />
 
 # Help<br />
 If you encounter any issues, ensure that:<br />
