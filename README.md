@@ -21,7 +21,7 @@ This project showcases a simple decentralized application (dApp) built with Soli
 **Installing**<br />
 1. Clone the repository:
    ```
-   git clone https://github.com/metacrafters-atm.git
+   https://github.com/Gorisha2004/SmartContractWithFrontend.git
 
    ```
 # Executing Program<br />
@@ -38,9 +38,9 @@ After cloning the github, you will want to do the following to get the code runn
    npx hardhat node
    ```
 6. In the third terminal, type:
-```
-npx hardhat run --network localhost scripts/deploy.js
-```
+   ```
+   npx hardhat run --network localhost scripts/deploy.js
+   ```
 8. Back in the first terminal, type the following command to launch the front-end:
    ```
    npm run dev
@@ -55,6 +55,10 @@ If you encounter any issues, ensure that:<br />
 1. MetaMask is installed and configured correctly.<br />
 2. Your MetaMask wallet is connected to the local Ethereum network.<br />
 3. The contract address in index.js matches the deployed contract address.<br />
+For additional help, you can use the following command to see more options:<br />
+   ```
+   npx hardhat help
+   ```
 <br />
 For complete code files and further details, refer to the [SCM-Starter](https://github.com/MetacrafterChris/SCM-Starter/tree/main) repository. This repository provides additional context and resources related to setting up similar projects.
 
