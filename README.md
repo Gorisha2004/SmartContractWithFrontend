@@ -1,6 +1,6 @@
 # A Smart Contract With FrontEnd <br />
 # Description<br />
-This project showcases a simple decentralized application (dApp) built with Solidity and React. The Solidity smart contract manages account balances, allowing users to deposit, withdraw, increase, and decrease their balance. The React frontend enables users to interact with the smart contract through a user-friendly interface, connecting to the Ethereum blockchain via MetaMask.<br />
+This project showcases a simple decentralized application (dApp) built with Solidity and React. The Solidity smart contract manages account balances, allowing users to deposit, withdraw, set minimum balance, and get last transaction timestamp. The React frontend enables users to interact with the smart contract through a user-friendly interface, connecting to the Ethereum blockchain via MetaMask.<br />
 <br />
 **Technologies used**<br />
 -> React: Frontend framework for building user interfaces.<br />
@@ -11,8 +11,8 @@ This project showcases a simple decentralized application (dApp) built with Soli
 **Functions**<br />
 --> deposit()- used to increase the balance amount by 1<br />
 --> withdraw()- used to decrease the balance amount by 1<br />
---> increaseBalance()- used to increase the balance amount by the amount we want<br /> 
---> decreaseBalance()- used to decrease the balance amount by the amount we want<br />
+--> setMinimumBalance()- used to set the minimum balance we want<br /> 
+--> getLastTranscationTimestamp()- used to get the timestamp of last transaction<br />
 --> getBalance()- Fetches and displays the current ETH balance of the connected account from the smart contract.<br />
 --> getWallet()- Initializes the MetaMask wallet connection if available<br />
 <br />
