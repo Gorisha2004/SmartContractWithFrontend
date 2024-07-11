@@ -2,23 +2,23 @@
 # Description<br />
 This project showcases a simple decentralized application (dApp) built with Solidity and React. The Solidity smart contract manages account balances, allowing users to deposit, withdraw, set minimum balance, and get last transaction timestamp. The React frontend enables users to interact with the smart contract through a user-friendly interface, connecting to the Ethereum blockchain via MetaMask.<br />
 <br />
-**Technologies used**<br />
--> React: Frontend framework for building user interfaces.<br />
--> Ethers.js: Ethereum JavaScript library for interacting with Ethereum nodes.<br />
--> MetaMask: Ethereum wallet browser extension for interacting with the Ethereum blockchain.<br />
--> Solidity: Smart contract programming language used for writing Ethereum smart contracts.<br />
+## Technologies used**<br />
+* React: Frontend framework for building user interfaces.
+* Ethers.js: Ethereum JavaScript library for interacting with Ethereum nodes.
+* MetaMask: Ethereum wallet browser extension for interacting with the Ethereum blockchain.
+* Solidity: Smart contract programming language used for writing Ethereum smart contracts.
 
-**Functions**<br />
---> deposit()- used to increase the balance amount by 1<br />
---> withdraw()- used to decrease the balance amount by 1<br />
---> setMinimumBalance()- used to set the minimum balance we want<br /> 
---> getLastTranscationTimestamp()- used to get the timestamp of last transaction<br />
---> getBalance()- Fetches and displays the current ETH balance of the connected account from the smart contract.<br />
---> getWallet()- Initializes the MetaMask wallet connection if available<br />
+## Functions**<br />
+* deposit(): Increases the balance amount by 1.
+* withdraw(): Decreases the balance amount by 1.
+* setMinimumBalance(): Sets the minimum balance required.
+* getLastTransactionTimestamp(): Retrieves the timestamp of the last transaction.
+* getBalance(): Fetches and displays the current ETH balance of the connected account from the smart contract.
+* getWallet(): Initializes the MetaMask wallet connection if available.
 <br />
 
 # Getting Started<br />
-**Installing**<br />
+## Installing**<br />
 1. Clone the repository:
    ```
    https://github.com/Gorisha2004/SmartContractWithFrontend.git
